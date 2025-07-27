@@ -10,8 +10,8 @@ function Login() {
   return (
     <div className="login">
       <h2>SenaiBank Login</h2>
-      <input placeholder="E-mail" value={email} onChange={e => setEmail(e.target.value)} />
-      <input type="password" placeholder="Senha" value={password} onChange={e => setPassword(e.target.value)} />
+      <input placeholder="admin@email" value={email} onChange={e => setEmail(e.target.value)} />
+      <input type="password" placeholder="1234" value={password} onChange={e => setPassword(e.target.value)} />
       <button onClick={() => login(email, password)}>Entrar</button>
     </div>
   );
